@@ -46,7 +46,7 @@ commander = module.exports.commander = commander.version '0.0.0'
     .option '-i, --ignore <r>', 'Mask to ignore files', String
     .option '-r, --recursive', 'Recursive strategy', Boolean
 
-module.exports.init = (cb)->
+module.exports.init = (basedir, cb)->
     
     err, pkg <- fs.readFile 'package.json', 'utf-8'
 
@@ -57,7 +57,7 @@ module.exports.init = (cb)->
 
     path = if commander.path 
     then commander.path 
-    else __basedir
+    else basedir 
 
     recursive = if commander.recursive 
     then commander.recursive 
