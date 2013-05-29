@@ -2,9 +2,9 @@
   "name": "node-find-cli",
   "version": "0.0.0",
   "description": "node find cli util",
-  "main": "index.js",
+  "main": "./lib/finder.ls",
   "scripts": {
-    "test": "node index.js -h"
+    "test": "livescript find.js -h"
   },
   "repository": {
     "type": "git",
