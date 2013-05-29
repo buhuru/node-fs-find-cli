@@ -1,0 +1,23 @@
+{
+  "name": "node-find-cli",
+  "version": "0.0.0",
+  "description": "node find cli util",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js -h"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buhuru/node-find-cli.git"
+  },
+  "author": "vladimir.buhuru@gmail.com",
+  "license": "BSD",
+  "dependencies": {
+    "prelude-ls": "~1.0.0",
+    "commander": "~1.1.1",
+    "walk": "~2.2.1"
+  },
+  "devDependencies": {
+    "livescript": "0.0.1"
+  }
+}
