@@ -6,7 +6,7 @@ exit =(m='no message!') ->
     process.exit!
 
 finder.commander.parse process.argv
-err, files <- finder.init __dirname 
+err, files <- finder.init 
 exir err.toString! if err
 
 log "\n"
