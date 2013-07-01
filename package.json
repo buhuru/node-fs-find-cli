@@ -1,10 +1,10 @@
 {
   "name": "node-find-cli",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "node find cli util",
-  "main": "./lib/finder.ls",
+  "main": "index.js",
   "scripts": {
-    "test": "livescript find.js -h"
+    "test": "node index.js -h"
   },
   "repository": {
     "type": "git",
