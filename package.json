@@ -1,14 +1,14 @@
 {
   "name": "node-find-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "node find cli util",
-  "main": "./lib/finder.ls",
+  "main": ".index",
   "scripts": {
-    "test": "livescript find.js -h"
+    "test": "livescript index.ls -h"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:buhuru/node-find-cli.git"
+    "url": "git@github.com:buhuru/node-fs-find-cli.git"
   },
   "author": "vladimir.buhuru@gmail.com",
   "license": "BSD",
