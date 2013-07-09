@@ -14,8 +14,7 @@
   "license": "BSD",
   "dependencies": {
     "prelude-ls": "~1.0.0",
-    "commander": "~1.1.1",
-    "walk": "~2.2.1"
+    "node-find": "0.0.1"
   },
   "devDependencies": {
     "livescript": "0.0.1"
