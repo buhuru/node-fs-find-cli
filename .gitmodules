@@ -1,0 +1,3 @@
+[submodule "lib/fasync"]
+	path = lib/fasync
+	url = git@github.com:buhuru/fasync.git
